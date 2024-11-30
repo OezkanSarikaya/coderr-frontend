@@ -11,8 +11,7 @@ Das dazugehörige Backend ist hier zu finden: [Coderr Backend Repository](https:
 - **Angebote**: Nur Business User (Anbieter) können Angebote erstellen und bearbeiten.  
 - **Bestellungen**:  
   - Customer User (Kunden) können Angebote bestellen.  
-  - Nur Business User (Anbieter) können Bestellungen bearbeiten.  
-  - Der Status einer abgeschlossenen Bestellung kann nicht mehr geändert werden.  
+  - Nur Business User (Anbieter) können Bestellungen bearbeiten.    
 - **Bewertungen (Reviews)**:  
   - Nur Kunden können Bewertungen erstellen, bearbeiten oder löschen.  
 - HTML Tags werden von allen Texteingaben entfernt (funktioniert durch das Backend).
