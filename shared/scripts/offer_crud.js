@@ -182,8 +182,7 @@ function addNewFeature(inputFieldId, offer_type) {
 
 
 function validateEmptyFields(form, data) {
-    errorIds = [];
-    console.log(form, data);
+    errorIds = [];    
 
     validateRequiredInputs(form);
     validateRevisions(data);

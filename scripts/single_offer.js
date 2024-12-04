@@ -15,7 +15,8 @@ async function loadRenderSingleOffer() {
     if (!profileId) {
         window.location.href = 'index.html';
     } else {
-        let offerResp = await setSingleOffer(profileId);
+        let offerResp = await setSingleOffer(profileId);      
+        
         if (offerResp.ok) {
             await loadSingleOfferUser(currentSingleOffer.user);
             await setSingleOfferCount(currentSingleOffer.user);
